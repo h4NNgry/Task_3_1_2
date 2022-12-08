@@ -10,7 +10,7 @@ public interface UserService {
 
     List<User> listUsers();
 
-    void updateUser(User user);
+    void updateUser(User user, int id);
 
     void removeUser(int id);
 
